@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import api from '../api';
-import { useAuth } from '../AuthContext.jsx';
+import api from './api.js';
+import { useAuth } from './AuthContext.jsx';
 
 const ROWS = ['A', 'B', 'C', 'D', 'E', 'F'];
 const COLS = 8;

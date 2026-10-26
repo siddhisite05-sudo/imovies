@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import api from '../api';
-import { useAuth } from '../AuthContext.jsx';
+import api from './api.js';
+import { useAuth } from './AuthContext.jsx';
 
 export default function Auth({ mode }) {
   const isLogin = mode === 'login';

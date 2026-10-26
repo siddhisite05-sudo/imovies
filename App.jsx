@@ -1,9 +1,9 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
-import Navbar from './components/Navbar.jsx';
-import Home from './pages/Home.jsx';
-import MovieDetail from './pages/MovieDetail.jsx';
-import Auth from './pages/Auth.jsx';
-import MyBookings from './pages/MyBookings.jsx';
+import Navbar from './Navbar.jsx';
+import Home from './Home.jsx';
+import MovieDetail from './MovieDetail.jsx';
+import Auth from './Auth.jsx';
+import MyBookings from './MyBookings.jsx';
 import { useAuth } from './AuthContext.jsx';
 
 function Protected({ children }) {
